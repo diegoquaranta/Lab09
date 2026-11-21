@@ -14,3 +14,16 @@ def main(page: ft.Page):
 
 
 ft.run(main)
+
+
+# LAB09 - PACCHETTI ESCURSIONISTICI
+
+# OBIETTIVO: trovare la combinazione di escursioni con
+# il voto totale più alto, rispettando giorni, budget
+# e assenza di punti di interesse duplicati.
+#
+# DAO: recuperano i dati dal database.
+# DTO: rappresentano i dati come oggetti Python.
+# ORM: collega Escursioni e PuntiInteresse (relazione N:N).
+# RICORSIONE: esplora le combinazioni possibili.
+# BACKTRACKING: torna indietro per provare altre soluzioni.
